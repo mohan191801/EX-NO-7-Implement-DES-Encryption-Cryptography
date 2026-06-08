@@ -1,21 +1,19 @@
-# EX-NO-7-Implement-DES-Encryption
-
-## Aim:
-
+EX-NO-7-Implement-DES-Encryption
+NAME: MOHAN M
+REG NO: 2305001018
+Aim:
 To use the Data Encryption Standard (DES) algorithm for a practical application, such as securing sensitive data transmission in financial transactions.
 
-## ALGORITHM:
+ALGORITHM:
+DES is based on a symmetric key encryption technique that encrypts data in 64-bit blocks.
 
-1. DES is based on a symmetric key encryption technique that encrypts data in 64-bit blocks.
+DES uses a Feistel network structure with 16 rounds of processing for encryption.
 
-2. DES uses a Feistel network structure with 16 rounds of processing for encryption.
+DES has a 64-bit key, but only 56 bits are used for encryption (the remaining 8 bits are for parity).
 
-3. DES has a 64-bit key, but only 56 bits are used for encryption (the remaining 8 bits are for parity).
+DES applies initial and final permutations along with 16 rounds of substitution and permutation transformations to produce ciphertext.
 
-4. DES applies initial and final permutations along with 16 rounds of substitution and permutation transformations to produce ciphertext.
-
-## Program:
-```
+Program:
 #include <stdio.h>
 #include <string.h>
 
@@ -37,14 +35,10 @@ int main(){
 
     xorC(e,k,d,len);
     printf("\nDec:%s",d);
-}
-```
+    }
 
+Output:
+<img width="266" height="125" alt="image" src="https://github.com/user-attachments/assets/ee6bb5ea-1d03-4653-befb-0cc0c97159bb" />
 
-
-## Output:
-
-
-
-## Result:
+Result:
 The program is executed successfully
